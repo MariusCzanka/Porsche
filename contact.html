@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    
+    <title>Proiect final - Magazin electronic</title>
+ 
+</head>
+<body> 
+  <nav class="nav">
+    <div class="container">
+        <div class="logo">
+            <a href="index.html"><img src="https://lezebre.lu/images/detailed/79/45326-Sticker-Porsche-Logo.png" alt=""></a>
+        </div>
+        <div id="mainListDiv" class="main_list">
+            <ul class="navlinks">
+                <li><a class="cool-link" href="index.html">Home</a></li>
+                <li><a class="cool-link"href="index.html#products">Produse</a></li>
+                <li><a class="cool-link"href="cart.html"  class="cart position-relative " aria-label="View your shopping cart"><i class="fas fa-shopping-cart"></i>Cos<span class="cart-basket d-flex align-items-center justify-content-center" id="cart-basket">
+                  0
+                </span></a></li>
+                <li><a class="cool-link"href="admin.html"><i class="fas fa-tools"></i>Admin</a></li>
+                <li><a class="cool-link"href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    
+    </div>
+</nav>
+
+<section id="contact">
+  
+    <h1 class="section-header">Contact</h1>
+    
+    <div class="contact-wrapper">
+    
+    <!-- Left contact page --> 
+      
+      <form id="contact-form" class="form-horizontal" role="form">
+         
+        <div class="form-group">
+          <div class="col-sm-12">
+            <input type="text" class="form-control" id="name" placeholder="NUME" name="name" value="" required>
+          </div>
+        </div>
+  
+        <div class="form-group">
+          <div class="col-sm-12">
+            <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" value="" required>
+          </div>
+        </div>
+  
+        <textarea class="form-control" rows="10" placeholder="MESAJ" name="message" required></textarea>
+        
+        <button class="btn btn-primary send-button" id="submitBtn" type="submit" value="TRIMITE">Trimite mesaj
+        </button>
+        
+      </form>
+      
+    <!-- Left contact page --> 
+      
+        <div class="direct-contact-container">
+  
+          <ul class="contact-list">
+            <li class="list-item"><i class="fa fa-map-marker fa-2x"><span class="contact-text place">Cluj-Napoca, Romania</span></i></li>
+            
+            <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone"><a href="tel:1-212-555-5555" title="Contacteaza-ma">0743-045 840</a></span></i></li>
+            
+            <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:#" title="Trimite un email">marius.czanka@gmail.com</a></span></i></li>
+            
+          </ul>
+  
+    </div>
+    
+  </section>  
+    
+    <footer class="bg-dark text-center text-white">
+      <div class="container p-4">
+        <section class="mb-4">
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+            ><i class="fa fa-facebook-f"></i></a>
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+            ><i class="fa fa-instagram"></i
+          ></a>
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+            ><i class="fa fa-linkedin"></i
+          ></a>
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+            ><i class="fa fa-github"></i
+          ></a>
+        </section>
+    
+        <section class="">
+          <form action="">
+            <div class="row d-flex justify-content-center">
+              <div class="col-auto">
+                <p class="pt-2">
+                  <strong>Sign up for our newsletter</strong>
+                </p>
+              </div>
+    
+              <div class="col-md-5 col-12">
+                <div class="form-outline form-white mb-4">
+                  <input type="email" id="" class="form-control" placeholder="Email address"/>
+                </div>
+              </div>
+    
+              <div class="col-auto">
+                <button type="submit" class="btn btn-outline-light mb-4">
+                  Subscribe
+                </button>
+              </div>
+            </div>
+          </form>
+        </section>
+    
+        <section class="mb-4">
+          <p>
+            Prices include VAT, but excluding shipping costs. The retail price is recommended by the manufacturer.
+     Sign up for our newsletter and get a  50 euros discount. 
+          </p>
+        </section>
+    
+        <section class="">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">SUPPORT CENTRE</h5>
+    
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-white">Returns</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Customer information</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Shipping</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Order Status</a>
+                </li>
+              </ul>
+            </div>
+    
+            <div class="col-lg-6 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">PORSCHE</h5>
+    
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-white">About us</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">B2B Sales</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Careers</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Sponsorhip</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </div>
+    
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2021 Copyright 
+        <a class="text-white" href="https://mdbootstrap.com/">Marius Czanka</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+
+<!-- Jquery needed -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="js/scripts.js"></script>
+
+<!-- Function used to shrink nav bar removing paddings and adding black background -->
+<script>
+    $(window).scroll(function() {
+        if ($(document).scrollTop() > 50) {
+            $('.nav').addClass('affix');
+            console.log("OK");
+        } else {
+            $('.nav').removeClass('affix');
+        }
+    });
+</script>
+    <script src="./src/http.js" type="module"></script>
+    <script src="./src/app.js" type="module"></script>
+</body>
+</html>

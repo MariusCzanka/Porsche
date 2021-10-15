@@ -1,0 +1,24 @@
+{
+  "name": "final_project_porsche_online_store",
+  "version": "0.0.1",
+  "description": "Final Project | Front End 12 - Online Commerce Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "serve"
+  },
+  "keywords": [
+    "Front",
+    "END",
+    "HTML",
+    "CSS",
+    "JS"
+  ],
+  "author": "Marius Czanka",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.1.1",
+    "mdb-ui-kit": "^3.9.0",
+    "serve": "^12.0.1"
+  }
+}
